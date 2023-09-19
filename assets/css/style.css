@@ -442,7 +442,7 @@ footer {
         font-size: 1.0em; /* Reduzca el tamaño del texto para dispositivos móviles */
         line-height: 1.8em; /* Ajusta la altura de línea para dispositivos móviles si es necesario */
         padding: 10%;
-        margin-left: -40%;
+        margin-left: -35%;
     }
     .imagen-banner{
         display: none;
@@ -450,26 +450,26 @@ footer {
     }
     .sobrenosotros{
         background-color: transparent;
-        margin-top: 200%;
+        margin-top: 150%;
         height: 50%;
-        width: auto;
+        width: 106.2%;
        margin-left: 0;
         
     }
 
     .sobrenosotros .cuadro-texto{
-        padding: 11em;
-        height: 100%;
+        padding: 10em;
+        height: 110%;
         width: 106.2%;
-        padding-left: 6em;
+        padding-left: 7em;
         top: 40%;
         
     }
 
     .sobrenosotros .cuadro-texto h1{
         
-        padding-left: 30%;
-        text-align: justify;
+        padding-left: 25%;
+        text-align: center;
         height: auto;
         
         margin-top: -100%;
@@ -479,7 +479,7 @@ footer {
         text-align: justify; /* Centra el texto en dispositivos móviles */
         font-size: 1.0em; /* Reduzca el tamaño del texto para dispositivos móviles */
         line-height: 1.8em; /* Ajusta la altura de línea para dispositivos móviles si es necesario */
-        padding: 5%;
+        padding-left: 5%;
         margin-left: -40%;
     }
     
@@ -488,9 +488,11 @@ footer {
     }
     .center-button{
         top: 30%;
+        margin-left: 5%;
     }
     .center-button img{
         padding-top: 2em;
+        margin-left: 3%;
         top: 150%;
         font-size: 1em;
         position: relative;
@@ -501,7 +503,7 @@ footer {
         margin: 0%;
         margin-right: 5%;
         width: 106.2%;
-        top: 400%;
+        top: 460%;
         position:absolute;
         text-align: justify; /* Centra el texto en dispositivos móviles */
         font-size: 1.0em; /* Reduzca el tamaño del texto para dispositivos móviles */
@@ -510,13 +512,14 @@ footer {
 
     footer {
         position: relative;
-        top: 120%;
+        top: 125%;
         height: auto;
         width: 106.2%;
     }
 
     .footer-logo{
-        padding-left: 36%;
+        width: 20%;
+        padding-left: 40%;
     }
     footer .contenedor {
         flex-direction: column;
@@ -526,7 +529,7 @@ footer {
 
     footer .footer-informacion{
         margin-bottom: 20px;
-        margin-left: 10%;
+        margin-left: 15%;
 
     }
     footer .footer-enlaces,
