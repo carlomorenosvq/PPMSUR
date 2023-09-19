@@ -475,7 +475,7 @@ footer {
         margin-top: -100%;
     }
     .sobrenosotros .cuadro-texto p {
-        width: 230%;
+        width: 220%;
         text-align: justify; /* Centra el texto en dispositivos móviles */
         font-size: 1.0em; /* Reduzca el tamaño del texto para dispositivos móviles */
         line-height: 1.8em; /* Ajusta la altura de línea para dispositivos móviles si es necesario */
@@ -512,7 +512,7 @@ footer {
 
     footer {
         position: relative;
-        top: 125%;
+        top: 126%;
         height: auto;
         width: 106.2%;
     }
