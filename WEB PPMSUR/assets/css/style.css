@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+ }
+
+ 
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+
+
+
+}
+
+
+body{
+
+    background: rgb(255, 174, 60);   
+    height: 290vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+
+
+
+
+}
+header {
+    background-color: rgb(255, 255, 255); /* Fondo naranja */
+    padding: 2rem 0; /* Espaciado interno para el contenido dentro del encabezado */
+    text-align: right;
+}
+
+/* Estilos para los enlaces en el encabezado */
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el espacio interno en la lista */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea (uno al lado del otro) */
+    margin-right: 30px; /* Espacio entre los elementos de la lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina la decoración de subrayado de los enlaces */
+    color: black; /* Texto en negro */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1.3em;
+    margin-right: 2%;
+    
+}
+nav ul li a:hover {
+    color: rgb(255, 149, 0); /* Cambiar el color cuando el ratón pasa por encima a naranja (#ff9500) */
+}
+.logo img {
+    float: left; /* Flotar el logotipo a la izquierda */
+    margin-left: 20px; /* Espacio entre el logotipo y los enlaces */
+    margin-top: -0.5%;
+    padding: 0;
+    max-width: 5%; /* Establecer un ancho máximo para la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Estilos para el banner */
+.banner {
+    display: flex; /* Usar flexbox para controlar la distribución */
+    justify-content: space-between; /* Coloca elementos a la izquierda y a la derecha */
+    align-items: center; /* Centra verticalmente los elementos dentro del banner */
+    height: 20%;
+    width: auto;       
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    color: white; /* Color del texto */
+    padding: 0px; /* Espaciado interno del banner */
+    text-align: center; /* Alinea el contenido al centro */
+    margin-top: 7em; /* Márgenes grandes alrededor del banner */
+    top: 0%;
+    background-color:white; 
+    margin: 10em;
+}
+
+/* Estilos para el cuadro de texto */
+.cuadro-texto {
+    
+    background-color: white; /* Fondo semitransparente */
+    padding: 10em; /* Espaciado interno dentro del cuadro de texto */
+    border-radius: 0px; /* Bordes redondeados */
+    position: relative;
+    color: black;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+    
+    
+}
+
+.cuadro-texto h1 {
+    margin-bottom: 1em; /* Agregar espacio entre el h1 y el párrafo */
+}
+
+/* Estilos para el párrafo dentro del cuadro de texto */
+.cuadro-texto p {
+    margin-top: 1em; /* Agregar espacio entre el h1 y el párrafo */
+    text-align: justify;
+}
+/* Estilos para la imagen */
+.imagen-banner {
+    height: 113%;
+    max-width: 50%; /* Ajusta el tamaño máximo de la imagen */
+    border-radius: 0px; /* Bordes redondeados para la imagen */
+    margin: 0 0 0 0; /* Elimina los márgenes superior e inferior */
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.sobrenosotros {
+    display: flex; /* Usar flexbox para controlar la distribución */
+            justify-content: space-between; /* Coloca elementos a la izquierda y a la derecha */
+            align-items: center; /* Centra verticalmente los elementos dentro del banner */
+            height: 30%;
+            
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    color: white; /* Color del texto */
+    padding: 0px; /* Espaciado interno del banner */
+    text-align: center; /* Alinea el contenido al centro */
+    margin-top: 7em; /* Márgenes grandes alrededor del banner */
+    top: 0%;
+    background-color:white; 
+    margin: 10em;
+    
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.galeria {
+    display: flex;
+    
+    
+    margin: 10em;
+    margin-bottom: 0;
+}
+
+/* Estilos para cada imagen */
+.imagen {
+    width: 100%; /* Ancho del 100% del ancho de la ventana */
+    height: auto; /* Alto del 100% del alto de la ventana */
+    transition: transform 0.3s; /* Agregar una transición suave a la transformación */
+}
+.imagen:hover {
+    transform: scale(1.7); /* Escalar la imagen al 110% en tamaño */
+    
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+   
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.center-button {
+    text-align: center; /* Alinea el contenido en el centro horizontal */
+    top: 10%;
+    position: relative; /* Posición relativa para el posicionamiento absoluto del texto */
+}
+
+/* Estilos para la imagen del botón */
+.center-button img {
+    width: 5%; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse sobre la imagen */
+    top: 50%;
+}
+
+/* Estilos para el texto del botón */
+.button-text {
+    color: black;
+    position: absolute; /* Posición absoluta para superponer el texto sobre la imagen */
+    top: -50%; /* Coloca el texto en la mitad vertical */
+    left: 50%; /* Coloca el texto en la mitad horizontal */
+    transform: translate(-50%, -50%); /* Centra el texto correctamente */
+    font-size: 16px; /* Tamaño de fuente del texto */
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+#servicios {
+    top: 20000px;
+    text-align: center; /* Alinea el contenido en el centro horizontal */
+    padding: 2em 0; /* Espaciado interno en la parte superior e inferior */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+   
+    text-align: justify;
+    margin: 20% 10% 10em;
+}
+
+
+/* Estilos para el texto en la sección "Nuestra Sección" */
+.seccion-texto {
+    max-width: 800px; /* Ancho máximo del texto */
+    margin: 0 auto; /* Centra horizontalmente el contenido */
+    padding: 1em; /* Espaciado interno */
+}
+
+.seccion-texto ul {
+    list-style: disc; /* Establece el tipo de viñeta (puedes cambiar a 'circle' o 'square' según prefieras) */
+    padding-left: 30px; /* Agrega sangría a la izquierda de la lista */
+}
+
+/* Estilos para los elementos de lista (li) */
+.seccion-texto li {
+    margin: 0.5em 0; /* Espaciado entre elementos de lista */
+}
+/* Estilos para las fotos en la sección "Nuestra Sección" */
+.seccion-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las fotos */
+    max-width: 1000px; /* Ancho máximo del contenedor de las fotos */
+    margin: 0 auto; /* Centra horizontalmente las fotos */
+}
+
+/* Estilos para las imágenes en la sección "Nuestra Sección" */
+.seccion-fotos img {
+    max-width: calc(50% - 10px); /* Ancho máximo del 50% y espacio entre las fotos */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    transition: transform 0.7s; /* Agregar una transición suave a la transformación */
+
+}
+
+
+.seccion-fotos img:hover  {
+    transform: scale(2.5); /* Escalar la imagen al 110% en tamaño */
+    
+}
+/* Estilos para la clase .extras */
+.extras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/* Estilos para la imagen dentro de .extras */
+.extras img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    transition: transform 0.7s; /* Agregar una transición suave a la transformación */
+
+}
+
+.extras img:hover  {
+    transform: scale(1.5); /* Escalar la imagen al 110% en tamaño */
+    
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Estilos generales del footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 30vh;
+}
+
+/* Contenedor para centrar el contenido */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 30vh;
+}
+
+/* Logo del footer */
+.footer-logo img {
+    width: 100%;
+    height: 2em;
+    
+    top:0px;
+}
+
+/* Sección de información de contacto */
+.footer-informacion h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:#ff9900
+}
+
+/* Sección de enlaces de navegación */
+.footer-enlaces h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:#ff9900
+}
+
+.footer-enlaces ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-enlaces li {
+    margin-bottom: 5px;
+}
+
+.footer-enlaces a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-enlaces a:hover {
+    color: #ff9900; /* Cambia el color al pasar el mouse sobre los enlaces */
+}
+
+/* Sección de redes sociales */
+.footer-redes-sociales h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:#ff9900
+}
+
+.footer-redes-sociales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-redes-sociales li {
+    margin-bottom: 5px;
+}
+
+.footer-redes-sociales a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-redes-sociales a:hover {
+    color: #ff9900; /* Cambia el color al pasar el mouse sobre los enlaces */
+}
+
+/* Derechos de autor */
+.derechos {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.derechos p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+/* -------MEDIA QUERYS RESPONSIVE MOVIL------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*RESPONSIVE CABECERA */
+@media screen and (max-width: 1024px) {
+    
+    html{
+        width: 100vw;
+    }
+    
+    header {
+        text-align: center; /* Alinea el contenido al centro en dispositivos móviles */
+        padding: 2rem 0; /* Espaciado interno reducido para dispositivos móviles */
+        width: 106.2%;
+    }
+
+    nav ul {
+        text-align: center; /* Alinea los enlaces al centro en dispositivos móviles */
+        margin-top: 50px; /* Margen superior en dispositivos móviles */
+    }
+
+    nav ul li {
+        display: block; /* Muestra los elementos de la lista como bloques (uno debajo del otro) en dispositivos móviles */
+        margin: 0 auto 10px; /* Espacio alrededor de los elementos de la lista en dispositivos móviles */
+    }
+
+    nav ul li a {
+        font-size: 1.2em; /* Tamaño de fuente ligeramente reducido para dispositivos móviles */
+        margin-left: 0%;
+    }
+    .logo img{
+        text-align: center;
+        display: block;
+        margin-left: 44%;
+        max-width: 10%; /* Reducir el ancho máximo para la imagen en dispositivos móviles */
+        }
+    .banner{
+        height: auto;
+        width: 10%;
+        position: absolute;
+        margin-left: 0;
+        top: 30%;
+        
+        
+        
+    }
+    .cuadro-texto{
+        padding: 8em;
+        height: 10%;
+        width: auto;
+        padding-left: 5em;
+    }
+
+    .cuadro-texto h1{
+        height: auto;
+        margin-left: 5%;
+        margin-top: -20%;
+    }
+    .cuadro-texto p {
+        width: 170%;
+        text-align: justify; /* Centra el texto en dispositivos móviles */
+        font-size: 1.0em; /* Reduzca el tamaño del texto para dispositivos móviles */
+        line-height: 1.8em; /* Ajusta la altura de línea para dispositivos móviles si es necesario */
+        padding: 10%;
+        margin-left: -35%;
+    }
+    .imagen-banner{
+        display: none;
+        
+    }
+    .sobrenosotros{
+        background-color: transparent;
+        margin-top: 150%;
+        height: 50%;
+        width: 106.2%;
+       margin-left: 0;
+        
+    }
+
+    .sobrenosotros .cuadro-texto{
+        padding: 10em;
+        height: 110%;
+        width: 106.2%;
+        padding-left: 7em;
+        top: 40%;
+        
+    }
+
+    .sobrenosotros .cuadro-texto h1{
+        
+        padding-left: 25%;
+        text-align: center;
+        height: auto;
+        
+        margin-top: -100%;
+    }
+    .sobrenosotros .cuadro-texto p {
+        width: 220%;
+        text-align: justify; /* Centra el texto en dispositivos móviles */
+        font-size: 1.0em; /* Reduzca el tamaño del texto para dispositivos móviles */
+        line-height: 1.8em; /* Ajusta la altura de línea para dispositivos móviles si es necesario */
+        padding-left: 5%;
+        margin-left: -40%;
+    }
+    
+    .galeria{
+        visibility: hidden;
+    }
+    .center-button{
+        top: 30%;
+        margin-left: 5%;
+    }
+    .center-button img{
+        padding-top: 2em;
+        margin-left: 3%;
+        top: 150%;
+        font-size: 1em;
+        position: relative;
+        width: 20%;
+    }
+
+    #servicios{
+        margin: 0%;
+        margin-right: 5%;
+        width: 106.2%;
+        top: 460%;
+        position:absolute;
+        text-align: justify; /* Centra el texto en dispositivos móviles */
+        font-size: 1.0em; /* Reduzca el tamaño del texto para dispositivos móviles */
+        line-height: 1.8em;
+    }
+
+    footer {
+        position: relative;
+        top: 126%;
+        height: auto;
+        width: 106.2%;
+    }
+
+    .footer-logo{
+        width: 20%;
+        padding-left: 40%;
+    }
+    footer .contenedor {
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+    }
+
+    footer .footer-informacion{
+        margin-bottom: 20px;
+        margin-left: 15%;
+
+    }
+    footer .footer-enlaces,
+    footer .footer-redes-sociales {
+        display: none;
+    }
+    
+}
+
