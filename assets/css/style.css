@@ -382,7 +382,7 @@ footer {
 /* -------MEDIA QUERYS RESPONSIVE MOVIL------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /*RESPONSIVE CABECERA */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     
     html{
         width: 100vw;
@@ -391,7 +391,7 @@ footer {
     header {
         text-align: center; /* Alinea el contenido al centro en dispositivos móviles */
         padding: 2rem 0; /* Espaciado interno reducido para dispositivos móviles */
-        width: 100%;
+        width: 106.2%;
     }
 
     nav ul {
@@ -445,11 +445,8 @@ footer {
         margin-left: -40%;
     }
     .imagen-banner{
-        position: absolute;
-        max-width: 500%; /* Establecer un ancho máximo del 100% en dispositivos móviles */
-        height: auto; /* Mantener la proporción de la imagen en dispositivos móviles */
-        margin: 230%; /* Eliminar los márgenes en dispositivos móviles */
-        top: 60%;
+        display: none;
+        
     }
     .sobrenosotros{
         background-color: transparent;
@@ -463,8 +460,8 @@ footer {
     .sobrenosotros .cuadro-texto{
         padding: 11em;
         height: 100%;
-        width: 150%;
-        padding-left: 5em;
+        width: 106.2%;
+        padding-left: 6em;
         top: 40%;
         
     }
@@ -503,7 +500,7 @@ footer {
     #servicios{
         margin: 0%;
         margin-right: 5%;
-        width: auto;
+        width: 106.2%;
         top: 400%;
         position:absolute;
         text-align: justify; /* Centra el texto en dispositivos móviles */
@@ -515,7 +512,7 @@ footer {
         position: relative;
         top: 120%;
         height: auto;
-        width: 100%;
+        width: 106.2%;
     }
 
     .footer-logo{
